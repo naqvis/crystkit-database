@@ -1,0 +1,19 @@
+name: crystkit-database
+version: 1.0.0
+
+authors:
+  - Ali Naqvi <syed.alinaqvi@gmail.com>
+
+description: |
+  SQLite database plugin for CrystKit. Provides a typed SQLite abstraction (single connection, parameterized queries, schema migrations,
+  transactions, backup and restore) plus a CrystKit IPC plugin exposing db.* commands to the frontend.
+
+crystal: ">= 1.21.0"
+
+license: MIT
+
+dependencies:
+  crystkit:
+    github: naqvis/crystkit
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3

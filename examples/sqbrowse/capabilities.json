@@ -1,0 +1,18 @@
+{
+   "capabilities": [
+    "database:access",
+    "fs:read",
+    "fs:write",
+    "dialog:open",
+    "dialog:save",
+    "clipboard:read",
+    "clipboard:write",
+    "menu:manage",
+    "tray:manage",
+    "window:manage",
+    "store:manage"
+  ],
+  "scopes": {
+    "fs": ["~"]
+  }
+}
